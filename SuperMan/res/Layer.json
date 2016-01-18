@@ -1,0 +1,259 @@
+{
+  "ID": "183d43d1-e554-4281-8556-b6514ccb2f97",
+  "Version": "2.3.3.0",
+  "Name": "Layer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 13,
+        "Children": [
+          {
+            "FontSize": 22,
+            "ButtonText": "竞技场",
+            "TextColor": {
+              "R": 0,
+              "G": 128,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.4756,
+              "ScaleY": 0.2267
+            },
+            "Position": {
+              "X": 152.9451,
+              "Y": 141.1531
+            },
+            "Scale": {
+              "ScaleX": 1.8828,
+              "ScaleY": 2.1781
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1593,
+              "Y": 0.2206
+            },
+            "PreSize": {
+              "X": 0.0896,
+              "Y": 0.0719
+            },
+            "LeftMargin": 112.0403,
+            "RightMargin": 761.9597,
+            "TopMargin": 463.2752,
+            "BottomMargin": 130.7248,
+            "Tag": 18,
+            "ActionTag": -523983959,
+            "Size": {
+              "X": 86.0,
+              "Y": 46.0
+            },
+            "Name": "Button_4",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "ButtonText": "商城",
+            "TextColor": {
+              "R": 0,
+              "G": 128,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 686.7194,
+              "Y": 102.5667
+            },
+            "Scale": {
+              "ScaleX": 2.2659,
+              "ScaleY": 1.9354
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.7153,
+              "Y": 0.1603
+            },
+            "PreSize": {
+              "X": 0.1,
+              "Y": 0.0875
+            },
+            "LeftMargin": 638.7194,
+            "RightMargin": 225.2806,
+            "TopMargin": 481.4333,
+            "BottomMargin": 102.5667,
+            "CallBackType": "Touch",
+            "Tag": 19,
+            "ActionTag": -1668559824,
+            "Size": {
+              "X": 96.0,
+              "Y": 56.0
+            },
+            "Name": "Button_1_2",
+            "ctype": "ButtonObjectData"
+          },
+          {
+            "FontSize": 24,
+            "ButtonText": "我的城市",
+            "TextColor": {
+              "R": 0,
+              "G": 128,
+              "B": 0
+            },
+            "DisabledFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Disable.png",
+              "Plist": ""
+            },
+            "PressedFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Press.png",
+              "Plist": ""
+            },
+            "NormalFileData": {
+              "Type": "Default",
+              "Path": "Default/Button_Normal.png",
+              "Plist": ""
+            },
+            "Scale9Enable": true,
+            "Scale9OriginX": 15,
+            "Scale9OriginY": 11,
+            "Scale9Width": 16,
+            "Scale9Height": 14,
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "TouchEnable": true,
+            "AnchorPoint": {
+              "ScaleX": 0.5
+            },
+            "Position": {
+              "X": 401.7609,
+              "Y": 106.7587
+            },
+            "Scale": {
+              "ScaleX": 1.7857,
+              "ScaleY": 1.8606
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4185,
+              "Y": 0.1668
+            },
+            "PreSize": {
+              "X": 0.1,
+              "Y": 0.0875
+            },
+            "LeftMargin": 353.7609,
+            "RightMargin": 510.2391,
+            "TopMargin": 477.2413,
+            "BottomMargin": 106.7587,
+            "CallBackType": "Touch",
+            "Tag": 20,
+            "ActionTag": -1706995746,
+            "Size": {
+              "X": 96.0,
+              "Y": 56.0
+            },
+            "Name": "Button_1_2_0",
+            "ctype": "ButtonObjectData"
+          }
+        ],
+        "Size": {
+          "X": 960.0,
+          "Y": 640.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "Default/Button_Disable.png",
+        "Default/Button_Normal.png",
+        "Default/Button_Press.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

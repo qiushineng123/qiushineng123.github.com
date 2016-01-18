@@ -1,0 +1,45 @@
+﻿生成启动时间为 2016/1/6 11:11:07。
+     1>项目“D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\StudioTest.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\StudioTest.exe) does not match the Linker's OutputFile property value (D:\wamp\www\StudioTest\simulator\win32\StudioTest.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>PreLinkEvent:
+         if not exist "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\" mkdir "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Cocos\frameworks\cocos2d-x-3.9\prebuilt\win32\*.*" "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 60 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\../../../simulator/win32/StudioTest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\\" /LIBPATH:"D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\\" libcurl_imp.lib "mozjs-33.lib" ws2_32.lib sqlite3.lib websockets.lib opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\../../../simulator/win32/StudioTest.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\StudioTest.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\RuntimeJsImpl.obj
+         Debug.win32\SimpleConfigParser.obj
+         Debug.win32\main.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\SimulatorWin.obj
+     1>RuntimeJsImpl.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+            正在创建库 D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\StudioTest.lib 和对象 D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\StudioTest.exp
+         StudioTest.vcxproj -> D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\StudioTest.exe
+       CustomBuildStep:
+         if not exist "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32" mkdir "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         xcopy "C:\Cocos\frameworks\cocos2d-x-3.9\cocos\scripting\js-bindings\script" "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32\script" /D /E /I /F /Y
+         xcopy "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\..\..\..\src" "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32\src" /D /E /I /F /Y
+         xcopy "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\..\..\..\res" "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32\res" /D /E /I /F /Y
+         copy "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\..\..\..\main.js" "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32" /Y
+         copy "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\..\..\..\project.json" "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32" /Y
+         xcopy /Y /Q "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\*.dll" "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         xcopy /Y /Q "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\..\Classes\ide-support\lang" "D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\Debug.win32\../../../../simulator/win32"
+         :VCEnd
+         C:\Cocos\frameworks\cocos2d-x-3.9\cocos\scripting\js-bindings\script\debugger\README.md -> D:\wamp\www\StudioTest\simulator\win32\script\debugger\README.md
+         复制了 1 个文件
+         D:\wamp\www\StudioTest\src\resource.js -> D:\wamp\www\StudioTest\simulator\win32\src\resource.js
+         复制了 1 个文件
+         D:\wamp\www\StudioTest\res\Layer.json -> D:\wamp\www\StudioTest\simulator\win32\res\Layer.json
+         D:\wamp\www\StudioTest\res\MainScene.json -> D:\wamp\www\StudioTest\simulator\win32\res\MainScene.json
+         复制了 2 个文件
+         已复制         1 个文件。
+         已复制         1 个文件。
+         复制了 16 个文件
+         复制了 1 个文件
+     1>已完成生成项目“D:\wamp\www\StudioTest\frameworks\runtime-src\proj.win32\StudioTest.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.58
